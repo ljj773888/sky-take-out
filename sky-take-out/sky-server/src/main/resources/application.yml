@@ -37,3 +37,12 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+  alioss:
+    endpoint: ${sky.alioss.endpoint}
+#    oss-cn-shenzhen.aliyuncs.com
+    access-key-id: ${sky.alioss.access-key-id}
+#    LTAI5tPT8EZSbpctk6ViAqEz
+    access-key-secret: ${sky.alioss.access-key-secret}
+#    iBmDUUnZXSShHL4zflExnqgWnoChqW
+    bucket-name: ${sky.alioss.bucket-name}
+#    sky-take-out-ljj773888
